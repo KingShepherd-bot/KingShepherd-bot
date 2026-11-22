@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shepherd's Kill Feed — DayZ Modding &amp; Coding</title>
+<meta name="description" content="Shepherd's Kill Feed: the all-in-one kill feed, stats, economy, shop and factions bot for DayZ servers on Nitrado — console & PC. By DayZ Modding & Coding.">
+<style>
+  :root { --bg:#0d0f0c; --panel:#16180f; --panel2:#1d2013; --line:#33351f; --text:#e8e6da; --muted:#b9b6a4; --accent:#d8b93a; --accent2:#8a9a3b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text); font-family:Georgia,'Times New Roman',serif; line-height:1.55; }
+  .wrap { max-width:880px; margin:0 auto; padding:24px 18px 60px; }
+  header { text-align:center; padding:28px 0 8px; }
+  header img { width:210px; height:210px; border-radius:50%; border:3px solid var(--accent); }
+  h1 { font-size:2.3em; letter-spacing:1px; color:var(--accent); margin:16px 0 4px; text-transform:uppercase; }
+  .sub { color:var(--muted); font-style:italic; }
+  .cta { display:inline-block; margin:20px 0 6px; background:var(--accent); color:#14150c; font-weight:bold; padding:13px 30px; border-radius:6px; text-decoration:none; font-size:1.1em; }
+  .cta:hover { background:#e8cb52; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:22px 24px; margin:20px 0; }
+  h2 { color:var(--accent); font-size:1.35em; margin-bottom:10px; text-transform:uppercase; letter-spacing:.5px; }
+  h3 { color:var(--accent2); font-size:1.05em; margin:14px 0 4px; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); }
+  ul { margin:6px 0 6px 20px; }
+  li { margin:3px 0; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:6px 28px; }
+  @media (max-width:640px){ .grid{ grid-template-columns:1fr; } h1{ font-size:1.7em; } }
+  .faq p { margin:4px 0 12px; }
+  footer { text-align:center; color:var(--muted); margin-top:28px; font-size:.92em; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="emblem.png" alt="DayZ Modding &amp; Coding emblem">
+  <h1>Shepherd's Kill Feed</h1>
+  <p class="sub">The one bot that does everything your DayZ server's Discord needs — by the DayZ Modding &amp; Coding team.</p>
+  <a class="cta" href="https://discord.gg/pyQUmWv8nh">Join the Discord</a>
+  <p class="muted">Console &amp; PC · Nitrado servers</p>
+</header>
+
+<section>
+  <h2>What it does</h2>
+  <p>Shepherd's Kill Feed runs your server's whole Discord from one bot — no juggling a pile of different bots. One install command builds the channel layout and sets everything up.</p>
+  <div class="grid">
+    <ul>
+      <li>Kill feed &amp; death feeds, per cause</li>
+      <li>Player stats, rank ladder &amp; leaderboards</li>
+      <li>Seasons &amp; weekly recap cards</li>
+      <li>Fight cards &amp; death-report DMs</li>
+      <li>Heat maps of where the action is</li>
+      <li>Server status &amp; crash watchdog</li>
+    </ul>
+    <ul>
+      <li>Full economy — wallet, daily bonus, contracts</li>
+      <li>Player bounties &amp; auto-bounties</li>
+      <li>Casino games with play credits</li>
+      <li>Factions — created by players, with a faction bank and Discord colours</li>
+      <li>Base zones, raid alerts &amp; hot-zone multipliers</li>
+      <li>Warnings, timed bans &amp; owner controls</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>The shop &amp; the catalogue</h2>
+  <p>The bot carries a full catalogue of <strong>2,629 items</strong> — weapons, clothing, gear, vehicles, military, containers and explosives — every one with its picture and a recommended price worked out for the bot's economy. Server owners browse it by number, stock their shop in a couple of clicks, and set their own prices.</p>
+  <p>Players buy from picture posts in the shop, and choose how their order arrives: a <strong>packed bag</strong>, or carried by a <strong>courier</strong> they loot. Paid in in-server currency, delivered at the next restart.</p>
+</section>
+
+<section>
+  <h2>Pilot testing — console servers</h2>
+  <p>We're proving the bot live with console servers first. <strong>Ten pilot spots</strong> are open to console servers on Nitrado with 32+ slots and 20+ players daily — bring a screenshot of your player listing as proof. The pilot runs two weeks; servers that keep the bot keep it for three months in total, pilot weeks included.</p>
+  <p><strong>PC servers:</strong> you're next — PC testing opens once the console pilot closes, and PC owners can put their name down now in the Discord.</p>
+</section>
+
+<section>
+  <h2>How to get it</h2>
+  <p>Everything runs through our Discord. Join, head to the Shepherd's Kill Feed section, and follow the steps there — once you're set up, you add the bot to your own Discord, run one install command, and the bot builds its channels and counters itself.</p>
+  <p style="text-align:center;"><a class="cta" href="https://discord.gg/pyQUmWv8nh">discord.gg/pyQUmWv8nh</a></p>
+</section>
+
+<section class="faq">
+  <h2>Questions</h2>
+  <h3>Which servers does it work with?</h3>
+  <p>DayZ servers hosted on Nitrado — console and PC alike. Console servers are testing first; PC follows.</p>
+  <h3>What does it cost after the pilot?</h3>
+  <p>Pilot keepers hold the bot for three months in total. After that it rolls onto $5 a month for one server, a full month from payment.</p>
+  <h3>Do I need other bots alongside it?</h3>
+  <p>That's the point of it — feeds, stats, economy, shop, factions, alerts and counters are all in the one bot, so most owners don't.</p>
+  <h3>Who runs it?</h3>
+  <p>The DayZ Modding &amp; Coding team — a community that helps DayZ server owners with setup, coding, JSON builds, custom traders and bases.</p>
+</section>
+
+<footer>
+  <p>DayZ Modding &amp; Coding · <a href="https://discord.gg/pyQUmWv8nh">discord.gg/pyQUmWv8nh</a></p>
+</footer>
+
+</div>
+</body>
+</html>
