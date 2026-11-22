@@ -28,7 +28,7 @@ Shepherd's Kill Feed lives in our Discord — that's where you claim a pilot spo
 
 **Join the Discord: https://discord.gg/pyQUmWv8nh**
 
-See it in action: [the Shepherd's Kill Feed page](https://muse.ai/s/shepherd-s-kill-feed-xcv77dy981xq4/WicspU9uXc45UBcIcXEoBgC-S46Dysp5gzPgnmq9rI0)
+See it in action: [the Shepherd's Kill Feed page](https://kingshepherd-bot.github.io/KingShepherd-bot/)
 
 ---
 
